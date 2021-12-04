@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: URL('../fonts/Minecraft.ttf') format('truetype');
+}
+
+.custom-navbar {
+    width: 100%;
+    background-color: #00A6FF;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 10px;
+    font-family: 'Minecraft';
+}
+
+.title-navbar {
+    font-size: 1.3em;
+}
+
+.custom-navbar>.nav-element {
+    color: aliceblue;
+    padding-left: 20px;
+}
